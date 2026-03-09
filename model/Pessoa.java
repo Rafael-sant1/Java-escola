@@ -18,7 +18,7 @@ public class Pessoa {
     }
     //Metodo especifico
     public void saudacao(){
-        System.out.println("Ola" + nome + "Voce tem" + idade + "anos");
+        System.out.println("Olá " + nome + ", você tem " + idade + " anos.");
     }
     //Getters e Setters
     //Get
@@ -31,7 +31,7 @@ public class Pessoa {
     }
 
     //set
-    Public void setNome(Sttring nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
